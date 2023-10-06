@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="result">
+        <h3>Your Result</h3>
+        <div class="count-score">
+          <p class="score">76</p>
+          <p class="max-score">of 100</p>
+        </div>
+        <p class="result-phrase">Great</p>
+        <p class="result-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary">
+        <h3>Summary</h3>
+        <ul class="score-list">
+          <li class="reaction">
+            <div>
+              <img src="/assets/images/icon-reaction.svg" alt="" /><span
+                class="reaction-span"
+                >Reaction</span
+              >
+            </div>
+            <div>80 <span class="span-sum">/ 100</span></div>
+          </li>
+          <li class="memory">
+            <div>
+              <img src="/assets/images/icon-memory.svg" alt="" /><span
+                class="memory-span"
+                >Memory</span
+              >
+            </div>
+            <div>92 <span class="span-sum">/ 100</span></div>
+          </li>
+          <li class="verbal">
+            <div>
+              <img src="/assets/images/icon-verbal.svg" alt="" /><span
+                class="verbal-span"
+                >Verbal</span
+              >
+            </div>
+            <div>61 <span class="span-sum">/ 100</span></div>
+          </li>
+          <li class="visual">
+            <div>
+              <img src="/assets/images/icon-visual.svg" alt="" /><span
+                class="visual-span"
+                >Visual</span
+              >
+            </div>
+            <div>72 <span class="span-sum">/ 100</span></div>
+          </li>
+        </ul>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
